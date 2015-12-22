@@ -1,0 +1,15 @@
+{
+  "name": "chat-example",
+  "version": "0.0.0",
+  "description": "A Polling app",
+  "main": "server.js",
+  "repository": "",
+  "author": "Vinodh <vinodh.v@hotmail.com>",
+  "dependencies": {
+    "async": "~0.2.8",
+    "express": "4.x",
+    "mongoose" : "*",
+    "bcrypt-nodejs" : "*",
+    "body-parser" : "*"
+  }
+}
