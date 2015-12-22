@@ -3,13 +3,17 @@
   "version": "0.0.0",
   "description": "A Polling app",
   "main": "server.js",
-  "repository": "",
+  "repository": "https://github.com/vinodhdk/codecamp-fullstack-voteapp/blob/master/package.json",
   "author": "Vinodh <vinodh.v@hotmail.com>",
   "dependencies": {
     "async": "~0.2.8",
     "express": "4.x",
     "mongoose" : "*",
     "bcrypt-nodejs" : "*",
-    "body-parser" : "*"
+    "body-parser" : "*",
+    "jade": "*",
+    "debug": "*",
+    "serve-favicon": "~2.2.0",
+    "morgan" : "*"
   }
 }

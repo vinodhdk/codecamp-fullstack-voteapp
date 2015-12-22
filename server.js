@@ -1,12 +1,21 @@
 //Requires
 var express = require('express');
-
+var path = require('path');
+var favicon = require('serve-favicon');
+var routes = require('./routes/index');
+var logger = require('morgan');
+var bodyParser = require('body-parser');
 
 //Initialization
 var app = express();
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'jade');
 
+app.use(logger('dev'));
+app.use(express.static(path.join(__dirname, 'public')));
 
-
+//Routing
+app.get('/', routes);
 
 
 //Server
