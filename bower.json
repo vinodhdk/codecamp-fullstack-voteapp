@@ -1,0 +1,31 @@
+{
+  "name": "codecamp-pollapp",
+  "version": "0.0.1",
+  "homepage": "https://github.com/vinodhdk/codecamp-fullstack-voteapp",
+  "authors": [
+    "Vinodh DK <vinodh.v@hotmail.com>"
+  ],
+  "description": "A voting app for freecodecamp",
+  "main": "index",
+  "moduleType": [],
+  "keywords": [
+    "voting",
+    "freecodecamp",
+    "webapp",
+    "fullstack"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/lib/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation": "~5.5.3",
+    "angular": "angularjs#~1.4.8"
+  }
+}
