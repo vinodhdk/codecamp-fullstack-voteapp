@@ -15,7 +15,7 @@ app.use(logger('dev'));
 app.use(express.static(path.join(__dirname, 'public')));
 
 //Routing
-app.get('/', routes);
+app.use('/', routes());
 
 
 //Server
